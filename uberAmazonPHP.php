@@ -8,9 +8,9 @@ class AmazonProductAPI
 
 
     /*USER INFO*/
-    private $public_key     = "AKIAJ7LPEK463BV7XHEQ";
-    private $private_key    = "gAOXnY7cyGBUWD4TIA5TA564l/idD6gd9kZxouWB";
-    public $associateTag = "game08e-20";
+    private $public_key     = "Your Amazon Public Key";
+    private $private_key    = "Your Private Key";
+    public $associateTag = "Your assoicated tag";
 
 
     /*Ensure the Amazon Request worked*/
