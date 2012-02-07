@@ -73,7 +73,7 @@ function aws_signed_request($region, $params, $public_key, $private_key)
     $request = "http://".$host.$uri."?".$canonicalized_query."&Signature=".$signature;
 
     /*Uncomment to view XML request to see what you want to parse out*/
-    //echo $request;
+    //echo "<a href='$request'>XML Request</a><br/>";
 
     // do request
     $response = @file_get_contents($request);
